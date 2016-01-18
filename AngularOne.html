@@ -5,11 +5,13 @@
    
    <body>
       <div>
-         <label>Name:</label>
-         <input type = "text" ng-model = "yourName" placeholder = "Enter a name here">
+         <label>First Name:</label>
+         <input type = "text" ng-model = "firstName" placeholder = "Enter first name here">
+         <label>Last Name:</label>
+         <input type = "text" ng-model="lastName" placeholder="Enter last name here">
          <hr />
          
-         <h1>Hello {{yourName}}!</h1>
+         <h1>Hello {{firstName}} {{lastName}}!</h1>
       </div>
    </body>
 </html>
